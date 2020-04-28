@@ -1,6 +1,7 @@
 import flask
 app = flask.Flask(__name__)
-
+import time
+import datetime
 @app.route("/")
 def index():
-    return "Hello Heruko"
+    return datetime.datetime.now()
