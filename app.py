@@ -4,4 +4,4 @@ app = flask.Flask(__name__)
 
 def index():
     
-    return 'test time2'
+    return text()
