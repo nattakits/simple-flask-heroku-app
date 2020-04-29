@@ -1,7 +1,8 @@
 import flask
 app = flask.Flask(__name__)
-
+import time
 @app.route("/")
 def index():
-
-    return 'uiojkhgfdffhjkml,;.'
+    
+    time.sleep(60)
+    return 'test time'
